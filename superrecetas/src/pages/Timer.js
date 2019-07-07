@@ -10,10 +10,10 @@ export default class Timer extends React.Component {
   start = async () => {
     // TODO: Chequear permisos
 
-    var timer = this.state.timer
+    let timer = this.state.timer
     this.setState({ timeLeft: timer })
 
-    var countdownInterval = setInterval(() => {
+    let countdownInterval = setInterval(() => {
       timer = timer - 1;
       this.setState({ timeLeft: timer }) 
       if( timer <= 0 ) { 

@@ -12,7 +12,7 @@ export default class Recipe extends React.Component {
   }
 
   async componentDidMount() {
-    var recipe = null
+    let recipe = null
     try {
       recipe = await mealdb.getRecipe(this.props.match.params.recipeId)
     } catch(e) {

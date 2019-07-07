@@ -11,7 +11,7 @@ export default class Home extends React.Component {
   }
 
   async componentDidMount() {
-    var recipes
+    let recipes
     try {
       recipes = await mealdb.getLatest()
     } catch(e) { console.error(e); recipes = null }
