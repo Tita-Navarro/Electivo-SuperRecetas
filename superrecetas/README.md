@@ -1,7 +1,7 @@
 # Electivo-SuperRecetas
 Progressive Web App (PWA) con React
 
-##Introducción
+## Introducción
 
 Para el segundo electivo tomaré un curso desde cero para crear una Progressive Web App.
 
@@ -16,7 +16,7 @@ La UX no es solo el diseño de la app sino que también tiene que ver con lo rá
 
 Las PWA están en medio de una aplicación nativa y una aplicación web que mediante el uso de Service Workers y otras tecnologías se pueden comportar como aplicaciones nativas y aplicaciones web al mismo tiempo.
 
-##Proceso
+## Proceso
 
 Recrearé el proceso con lo que propone el curso hacer para hacer que una aplicación web también pueda verse en un móvil.
 
