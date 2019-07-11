@@ -27,7 +27,7 @@ export default class Home extends React.Component {
 
     return <div>
       <Helmet>
-        <title>Recetas</title>
+        <title>Súper Recetas</title>
       </Helmet>
 
       <div className="recipes">

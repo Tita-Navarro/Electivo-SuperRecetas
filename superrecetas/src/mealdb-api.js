@@ -50,5 +50,3 @@ function normalizeMeal(meal) {
 
   return newMeal
 }
-
-
